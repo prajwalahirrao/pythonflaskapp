@@ -1,0 +1,6 @@
+services:
+  web:
+    image: docker.io/prajwalahirrao/pythonflaskapp
+    build: .
+    ports:
+      - "5000:5000"
